@@ -22,15 +22,15 @@ NPS Explorer is an application designed to help adventurers explore the various 
 
 *Custom Loading Animation*
 
-One feature I'd like to highlight is the custom mountain loading screen animation. While exploring ways to fulfill the animation requirement of the project, I wanted to play with custom shapes and colors to create something both visually appealing and thematically connected to the app's purpose. The animation shows mountains rising from the ground, snow caps forming, and trees appearing, culminating with a sun rising—all drawn using custom SwiftUI shapes and paths.
-Creating this animation involved significant experimentation with timing, sizing, and positioning of elements. The process tested my knowledge of SwiftUI's animation system and helped me gain a deeper understanding of how to sequence complex animations. By using a minimum duration timer mechanism, I ensured users could appreciate the full animation sequence even when data loaded quickly.
+One feature I'd like to highlight is the custom mountain loading screen animation. While thinking of ways to fulfill the animation requirement of the project, I wanted to play with custom shapes and colors to create something both visually appealing and thematically connected to the app's purpose. The animation shows mountains rising from the ground, snow caps forming, and trees appearing, finishing off with a sun rising—all drawn using custom SwiftUI shapes and paths.
+Creating this animation involved a ton of guessing and checking with the  timing, sizing, and positioning of elements. The process tested my knowledge of SwiftUI's animation system and helped me gain a deeper understanding of how to sequence complex animations. Additionally, by learning and implementing a minimum duration timer mechanism, I ensured users could appreciate the full animation sequence even when data loaded quickly.
 
 <br>
 
 *Location-Based Park Discovery*
 
-Given the whole purpose of my app is to help adventurers seek out natural beauty around them, I implemented a location-aware featured tab that determines the five closest national parks to the user's current location. This provides an intuitive starting point for planning adventures to nearby parks.
-Implementing this feature required learning about Apple's location services framework and understanding the permission request flow. I had to calculate distances between the user and all national parks, then sort and present them with appropriate distance formatting (feet for very close parks, miles with decimal places for moderate distances, and rounded miles for farther parks). YouTube tutorials and Apple's documentation were invaluable resources for implementing this functionality correctly.
+Given the whole purpose of my app is to help adventurers seek out the natural beauty around them, I implemented a location-aware featured tab that determines the five closest national parks to the user's current location. This provides an intuitive starting point for planning adventures to nearby parks.
+Implementing this feature required learning about Apple's location services framework and understanding the permission request flow. I had to calculate distances between the user and all national parks, then sort and present them with appropriate distance formatting (feet for very close parks, miles with decimal places for moderate distances, and rounded miles for farther parks). YouTube tutorials and Apple's documentation were great resources for implementing this functionality correctly.
 
 <br>
 
