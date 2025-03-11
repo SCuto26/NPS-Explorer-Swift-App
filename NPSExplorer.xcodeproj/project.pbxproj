@@ -29,9 +29,22 @@
 		7A216B742D7D784C002300F0 /* NPSExplorerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NPSExplorerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		7A85D7D72D7E8C3C002BF601 /* Exceptions for "NPSExplorer" folder in "NPSExplorer" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 7A216B592D7D7848002300F0 /* NPSExplorer */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		7A216B5C2D7D7848002300F0 /* NPSExplorer */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				7A85D7D72D7E8C3C002BF601 /* Exceptions for "NPSExplorer" folder in "NPSExplorer" target */,
+			);
 			path = NPSExplorer;
 			sourceTree = "<group>";
 		};
@@ -399,6 +412,8 @@
 				DEVELOPMENT_TEAM = U3397XWQ37;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NPSExplorer/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "NPS Explorer";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -428,6 +443,8 @@
 				DEVELOPMENT_TEAM = U3397XWQ37;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NPSExplorer/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "NPS Explorer";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
