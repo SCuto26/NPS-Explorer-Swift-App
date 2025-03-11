@@ -4,6 +4,13 @@ NPS Explorer is an application designed to help adventurers explore the various 
 
 <br>
 
+**About the API**
+
+NPS Explorer utilizes the National Park Service (NPS) API to retrieve comprehensive data about U.S. national parks, monuments, and memorials. This official API provides access to information about parks, their amenities, campgrounds, activities, and more, enabling the app to display the most current and accurate information available.
+
+API Documentation Link:
+https://www.nps.gov/subjects/developer/api-documentation.htm
+
 **Key Features**
 
 - Browse featured nearby national parks based on user location
