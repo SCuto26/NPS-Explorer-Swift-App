@@ -11,6 +11,8 @@ NPS Explorer utilizes the National Park Service (NPS) API to retrieve comprehens
 API Documentation Link:
 https://www.nps.gov/subjects/developer/api-documentation.htm
 
+<br>
+
 **Key Features**
 
 - Browse featured nearby national parks based on user location
