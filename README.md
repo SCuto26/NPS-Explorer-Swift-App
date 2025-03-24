@@ -2,8 +2,6 @@
 
 NPS Explorer is an iOS application designed to help adventurers explore the various national parks within the United States. The app leverages the National Park Service API to provide detailed information about each park's unique characteristics, amenities, operating hours, and current alerts. This app serves as both a planning tool for future trips and an informational resource while visiting parks.
 
-![NPS Explorer App](https://via.placeholder.com/750x400?text=NPS+Explorer+App)
-
 ## Features
 
 - **Location-Based Discovery**: Browse featured nearby national parks based on your current location
